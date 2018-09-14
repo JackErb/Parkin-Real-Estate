@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link type="text/css" href="css/base.css" rel="stylesheet /">
+  <link type="text/css" href="css/listing.css" rel="stylesheet /">
+
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
   <div id="header" class="jumbotron text-center">
@@ -35,10 +37,30 @@
     </div>
   </div>
 
-  <div id="main" class="container-fluid">
-    <h2 class="text-center">List your home with me</h2>
+  <div id="main" class="container">
+    <div class="row">
+      <div class="col-lg text-center">
+        <h4 id="listing-header">Listing your home with me is easy and quick!</h4>
+        <p><small>Simply contact me with the form below.</small></p>
+      </div>
+      <div class="col-lg">
+        <img class="col-12" id="listing-img"  src="img/listing.jpg">
+      </div>
+    </div>
 
 
+    <form class="container">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">I will get in contact with you at this email address as soon as possible.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Comments</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Comments">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
 </body>
 </html>
