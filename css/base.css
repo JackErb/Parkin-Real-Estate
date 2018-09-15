@@ -1,3 +1,4 @@
+
 #header {
   padding-bottom: 20px;
   margin-bottom:0px;
@@ -91,3 +92,31 @@
   a:visited { color: #aaaaaa; text-decoration:none; font-weight:bold; }
   a:hover { color: #818181; text-decoration:none; font-weight:bold; }
   a:active { color: #aaaaaa; text-decoration:none; font-weight:bold; }
+
+
+
+@media only screen and (max-width: 418px) {
+  #title {
+    font-size: 28px !important;
+  }
+
+  #subtitle {
+    font-size: 14px !important;
+  }
+
+  #links * h6 {
+    font-size: 13px !important;
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+  #links * h6 {
+    font-size: 11px !important;
+  }
+
+  #links .col {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
