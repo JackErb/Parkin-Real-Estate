@@ -72,6 +72,11 @@
   color:#888;
 }
 
+  #phone-number {
+    display: block;
+    margin-bottom: 10px;
+  }
+
   .socialMediaLink {
     width: 25px;
     height: auto;
