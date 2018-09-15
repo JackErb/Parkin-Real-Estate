@@ -5,3 +5,23 @@
 #main {
   margin-top: 0px !important;
 }
+
+  #headshot {
+    display: inline-block;
+    width: 25%;
+    min-width: 119px;
+    float: left;
+    margin-right: 20px !important;
+  }
+
+
+@media only screen and (max-width: 350px) {
+  #about {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #headshot {
+  }
+}
