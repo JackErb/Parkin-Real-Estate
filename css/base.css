@@ -3,6 +3,8 @@
   margin-bottom:0px;
 
   background-color: #FDFDFD;
+
+  border-bottom: 1px solid #DDD;
 }
 
     #subtitle {
@@ -46,6 +48,8 @@
 #main {
   padding-left: 0px !important;
   padding-right: 0px !important;
+
+  margin-top:40px;
 }
 
   #slideshow {
