@@ -1,0 +1,20 @@
+#properties-header {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+#buying-text {
+  font-family: Helvetica;
+  font-size: 17px;
+}
+
+.listing {
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+  padding: 25px;
+}
+
+  .listing-img {
+    width: 100%;
+    height: auto;
+  }
